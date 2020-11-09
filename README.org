@@ -17,3 +17,10 @@ Hopefully this representation is enough to get an idea of what Mountain is!
 
 * Contribution
 I welcome contributions! I'm pretty crap at color design (if that hasn't been stressed enough), and there are definitely aspects of this colorscheme that require improvement. Please leave requests/issues with ways to improve it! Together we can make Mountain OP™.
+
+* Screenshots
+Just a couple previews of the themes made at first release!
+[[scr1.png]]
+[[scr2.png]]
+[[scr3.png]]
+[[scr4.png]]
