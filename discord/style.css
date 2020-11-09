@@ -1,0 +1,19 @@
+@import url(https://enhanceddiscord.com/theme.css);
+
+.theme-dark {
+    --bg: #0f0f0f;
+    --bg-overlay: rgba(0, 0, 0, 0);
+    --accent: #ac8a8c;
+    --accent-bright: #ac8aac;
+    --accent-back: #262626;
+    --accent-back-bright: #262626;
+    --icon-color: transparent;
+    --link-color: #8aabac;
+    --link-color-hover: #9ec3c4;
+    --popup-background: #191919;
+    --popup-highlight: #262626;
+    --unread-color: #8aac8b;
+    --typing-height: 25px;
+    --gift-button: none;
+    --gif-picker: none;
+}
