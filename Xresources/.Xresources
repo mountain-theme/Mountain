@@ -1,0 +1,26 @@
+!! Appearance
+visualBell: true
+xterm*faceName: Iosevka Nerd Font
+xterm*faceSize: 9
+
+! Mountain Xresources palette
+*.foreground: #f0f0f0
+*.background: #0f0f0f
+*.color0:     #262626
+*.color8:     #4c4c4c
+*.color1:     #ac8a8c
+*.color9:     #c49ea0
+*.color2:     #8aac8b
+*.color10:    #9ec49f
+*.color3:     #aca98a
+*.color11:    #c4c19e
+*.color4:     #8f8aac
+*.color12:    #a39ec4
+*.color5:     #ac8aac
+*.color13:    #c49ec4
+*.color6:     #8aabac
+*.color14:    #9ec3c4
+*.color7:     #e7e7e7
+*.color15:    #f5f5f5
+
+Xcursor.size: 9
