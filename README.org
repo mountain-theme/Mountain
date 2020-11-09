@@ -20,7 +20,7 @@ I welcome contributions! I'm pretty crap at color design (if that hasn't been st
 
 * Screenshots
 Just a couple previews of the themes made at first release!
-[[scr1.png]]
-[[scr2.png]]
-[[scr3.png]]
-[[scr4.png]]
+[[./img/scr1.png]]
+[[./img/scr2.png]]
+[[./img/scr3.png]]
+[[./img/scr4.png]]
