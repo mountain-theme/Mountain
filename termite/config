@@ -1,0 +1,63 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = true
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = DaddyTimeMono Nerd Font 13
+scrollback_lines = 1000
+search_wrap = true
+cursor_blink = system
+cursor_shape = block
+[colors]
+#cursor = #ffffff
+foreground = #f0f0f0
+foreground_bold = #f0f0f0
+background = #0f0f0f
+# 20% background transparency (requires a compositor)
+#background = rgba(63, 63, 63, 0.8)
+# if unset, will reverse foreground and background
+# highlight = #2f2f2f
+# colors from color0 to color254 can be set
+
+# special
+foreground      = #f0f0f0
+foreground_bold = #f0f0f0
+cursor          = #fdfdfd
+background      = #0f0f0f
+
+# black
+color0  = #262626
+color8  = #4c4c4c
+
+# red
+color1  = #ac8a8c
+color9  = #c49ea0
+
+# green
+color2  = #8aac8b
+color10 = #9ec49f
+
+# yellow
+color3  = #aca98a
+color11 = #c4c19e
+
+# blue
+color4  = #8f8aac
+color12 = #a39ec4
+
+# magenta
+color5  = #ac8aac
+color13 = #c49ec4
+
+# cyan
+color6  = #8aabac
+color14 = #9ec3c4
+
+# white
+color7  = #e7e7e7
+color15 = #f5f5f5
+
