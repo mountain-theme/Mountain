@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>~</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<script src="scripts/transitions.js"></script>
+	</head>
+
+	<body>
+		<svg id="fader"></svg>
+        <script>fadeInPage();</script>
+
+		<!-- Welcome screen -->
+		<div id="main_window">
+			<img id=leftImg src="assets/img/image.jpg" class="image">
+			<div id="content">
+				<h1 class="title">こんにちは</h1>
+				<div id="date">
+					<script type="text/javascript">
+						function doDate() {
+							var str = "";
+							var months = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+							var clock = new Date();
+							var now = new Date();
+
+							str += months[clock.getMonth()] + " " + now.getDate() + ", " + clock.getFullYear() + " | " + ("0" + now.getHours()).slice(-2) +":" + ("0" + now.getMinutes()).slice(-2) + ":" + ("0" + now.getSeconds()).slice(-2);
+							document.getElementById("date").innerHTML = str;
+						}
+						setInterval(doDate, 1000);
+						doDate();
+					</script>
+				</div>
+
+		<!-- Web search -->
+				<div id="web_search">
+					<form action="https://duckduckgo.com/" method="GET" autocomplete="off">
+						<label for="q">></label>
+						<input autofocus
+			        	 		id="q"
+			         			name="q"
+			         			type="search"
+			         			placeholder="search with duckduckgo...">
+					</form>
+				</div>
+
+		<!-- Links -->
+				<nav>
+					<div id=links_container>
+						<ul>
+							<a class="subtitle">School</a>
+								<li><a href="https://classroom.google.com/">GClass</a></li>
+								<li><a href="https://drive.google.com/">Drive</a></li>
+								<li><a href="https://mail.google.com/">Mail</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">Media</a>
+								<li><a href="https://www.netflix.com/browse">Netflix</a></li>
+								<li><a href="https://www.youtube.com/">YouTube</a></li>
+								<li><a href="https://www.crunchyroll.com/">Crunchyroll</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">Reddit</a>
+								<li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
+								<li><a href="https://www.reddit.com/r/mechanicalkeyboards">r/mechkeeb</a></li>
+								<li><a href="https://www.reddit.com/r/arduino">r/arduino</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">Devshits</a>
+								<li><a href="https://www.epfl.ch/campus/security-safety/en/health/coronavirus-covid19/">COVID-19</a></li>
+								<li><a href="https://ewa.epfl.ch/">Mail</a></li>
+								<li><a href="https://moodle.epfl.ch/">Moodle</a></li>
+						</ul>
+						<ul>
+							<a class="subtitle">Others</a>
+								<li><a href="https://www.digikey.com/">Digikey</a></li>
+								<li><a href="http://localhost:3000">localhost</a></li>
+								<li><a href="https://www.dev.to/">DEV</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<script src="scripts/darkmode.js"></script>
+	</body>
+</html>

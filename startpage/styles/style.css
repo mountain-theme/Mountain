@@ -1,0 +1,236 @@
+/*This file is for the regular version of the startpage (file index.html)
+  The single page version has embedded styling for use with Firefox.
+  This version is also probably more often updated.*/
+
+/*Change these variables to match with your setup. These colors work for
+  the image I used and my overall desktop theme (see here:
+  https://i.imgur.com/gxMdNKi.png).*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+:root {
+	--blue: #8f8aac;
+	--white: #f0f0f0;
+	--red: #ac8aac;
+    --yellow: #aca98a;
+
+	--bg: #0f0f0f;
+	--fg: #191919;
+
+	--search-bg: rgba(255, 255, 255, 0);
+}
+
+body {
+	background-color: var(--bg);
+	font-family: 'Roboto Mono', monospace;
+	color: var(--red);
+	transition: all 0.25s ease-out;
+}
+
+#date {
+    color: #f8f8f2;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+	padding: 2px 15px;
+}
+
+p[class=cblueits] > a {
+	position: fixed;
+	bottom: 7px;
+	right: 10px;
+}
+
+/*Form based off of Vallode's work:
+  https://codepen.io/Vallode/pen/abdYLOd*/
+form {
+	margin: 1em 0;
+	position: relative;
+}
+
+form input[type="search"] {
+	background-color: var(--search-bg);
+	border: none;
+	box-sizing: border-box;
+	font-weight: bold;
+	font: inherit;
+	margin-left: 12px;
+	width: 95%;
+	color: var(--yellow);
+	transition: all 0.2s;
+}	
+
+form label {
+	color: var(--yellow);
+	position: absolute;
+	transition: all 0.4s;
+}
+
+form:focus-within input::placeholder {
+	opacity: 0;
+}
+
+#main_window {
+	background-color: var(--fg);
+	width: 910px;
+	padding-right: 40px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	transition: all 0.25s;
+}
+
+#content {
+	padding-top: 30px;
+	margin-left: 300px;
+}
+
+#links_container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#links_container li, a {
+	color: var(--white);
+	text-decoration: none;
+	transition: all 0.4s;
+}
+
+#links_container li {
+    font-size: 13px;
+}
+
+#links_container a:hover {
+	color: var(--blue);
+	transition: all 0.4s;
+}
+
+.subtitle {
+	font-weight: bold;
+	color: var(--blue);
+}
+
+.title {
+    font-family: "Roboto"!important;
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.image {
+	max-width: 250px;
+	float: left;
+}
+
+.bottom {
+	position: fixed;
+	bottom: 0;
+	font-size: 0.52em;
+}
+
+.bottom a {
+	text-decoration: none;
+	color: var(--red);
+}
+
+.bottom a:hover {
+	text-decoration: underline;
+}
+
+/*
+  Transitions
+*/
+#fader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    pointer-events: none;
+    background: var(--bg);
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-out {
+    from { opacity: 1 }
+      to { opacity: 0 }
+}
+
+@keyframes fade-in {
+    from { opacity: 0 }
+      to { opacity: 1 }
+}
+
+#fader.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+}
+
+#fader.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+}
+
+/*
+  Media querries
+*/
+@media (max-width: 980px) {
+    #links_container {
+        margin-top: 35px;
+    }
+
+	img#leftImg {
+    	height: 280px;
+  	}
+
+  	#main_window {
+		width: 833px;
+		padding-right: 0;
+	}
+
+	ul {
+		padding-top: 0px;
+		margin-top: -7px;
+	}
+
+	#content {
+		padding-top: 0px;
+		margin-left: 220px;
+	}
+}
+
+@media (max-width: 833px) {
+    #links_container {
+        margin-top: 35px;
+    }
+    
+	img#leftImg {
+		display: none;
+	}
+
+	#main_window {
+		width: 650px;
+	}
+
+	#content {
+		margin-left: 20px;
+
+	}
+}
+
+@media (max-width: 650px) {
+	#main_window {
+		width: 100%;
+	}
+}
+
+@media (max-width: 450px) {
+	form input[type="search"] {
+		width: 90%;
+	}
+}
