@@ -1,0 +1,84 @@
+/*
+Import our own variable file that inherits from Mailspring's base
+styles and overrides colors, margins, etc. to create our theme's
+overall design.
+
+Since most of the app uses these variables to style individual elements,
+we don't have to do much to create a totally different look.
+
+Note: This file needs to be named ui-variables.less so other
+stylesheets can call `@import "ui-variables";` and reference it.
+*/
+@import "ui-variables";
+
+/*
+After changing variables to set a base for our theme, we can use
+specific, narrowly-scoped CSS rules to change other things.
+
+Tip: You can use the Developer Tools in Mailspring and "Inspect
+Element" to identify the DOM elements and styles you want to override.
+
+Tip: You only need to target the latest version of Chrome (eg Electron)
+here, so you can use modern CSS like -webkit-filter and -webkit-mask-image
+(which is used to make most of the icons in the app styleable via a
+background color.)
+*/
+.sheet-toolbar {
+  border-bottom: 1px solid @border-color-divider;
+  box-shadow: none;
+}
+
+.thread-icon:not(.thread-icon-unread):not(.thread-icon-star) {
+  -webkit-filter: invert(100%);
+}
+img.content-dark {
+  -webkit-filter: invert(100%);
+}
+img.content-light {
+  -webkit-filter: invert(100%);
+}
+
+.mail-label {
+  -webkit-filter: contrast(110%) brightness(85%);
+}
+
+#message-list .message-item-wrap .message-item-white-wrap {
+  box-shadow: 0 0 0.5px @selection-color,
+    0 1px 1.5px @selection-color;
+}
+
+.thread-list .thread-icon.thread-icon-unread, .draft-list .thread-icon.thread-icon-unread{
+  color: @cyan-color;
+}
+
+.thread-list .thread-icon.thread-icon-star, .draft-list .thread-icon.thread-icon-star {
+  color: @yellow-color;
+}
+
+.thread-list .list-item:not(.unread):not(.selected):not(.focused) {
+  color: @foreground-color;
+}
+
+.undo-redo-toast {
+  .content {
+    border-color: @background-color;
+    color: @background-color;
+    background: @blue-color;
+  }
+}
+
+.sidebar-activity {
+  .item {
+    .sync-activity {
+      .account {
+        .folder-progress::before {
+          background-color: @green-color;
+        }
+        .folder-progress.busy::before {
+
+          border: solid 2px @green-color;
+        }
+      }
+    }
+  }
+}
