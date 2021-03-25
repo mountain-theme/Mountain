@@ -1,5 +1,7 @@
 #+TITLE: Mountain
 
+[[./img/Banner.png]]
+
 * What is this?
 Mountain is a dark, neutral color scheme. What does that mean? It means that the grayscale is truly on the b/w range, and the rest of the colors aren't necessarily favoring any singular direction. This makes for a... neutral color palette, like I said in the beginning (I'm not good at writing). Regardless, this color scheme tries to be low-contrast, while maintaining a decent amount of contrast. Note that I'm not a colorologist guy, and just fucked around with some colors on my badly calibrated monitor. You've been warned!
 
