@@ -14,6 +14,8 @@ I also used many of the theme files from the infamous [[https://github.com/dracu
 
 * Palette
 I'm in the process of changing the design parameters - thank you for your patience!
+[[./docs/hanabira.org][Hanabira]]
+[[./docs/fuji.org][Fuji]]
 
 * Contribution
 I welcome contributions! I'm pretty crap at color design (if that hasn't been stressed enough), and there are definitely aspects of this colorscheme that require improvement. Please leave requests/issues with ways to improve it! Together we can make Mountain OP™.
