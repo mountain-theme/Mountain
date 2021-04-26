@@ -1,0 +1,9 @@
+#+TITLE: Fuji
+
+#+html: <p align="center"><img src="../img/Fuji.png"/></src>
+
+* What is this?
+Fuji is the "original" Mountain theme - the dark, neutral colorscheme that I set out to make in the first place. If you ever hear anyone say that they're using "Mountain Theme", chances are that older users will be referring to /this/. While I'm undergoing the shift to this more ambiguous design system, you'll find that this SKU will have far better support in terms of application themes.
+
+* Design Parameters
+Making Figma graphics takes time - heck, I don't even know how to use the software properly! Please bear with me as I navigate through the revamp/redesign :)
