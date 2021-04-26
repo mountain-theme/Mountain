@@ -1,0 +1,10 @@
+#+TITLE: Hotaka
+
+#+html: <p align="center"><img src="../img/Hotaka.png"/></src>
+
+* What is this?
+Hotaka is Mountain Theme's light design system - it uses the same colors that you know and love, but in a... light mode? So whether you're a lover of the (honestly eye-searing) light mode, or you want to have a light/dark mode toggle for something, whatever - your colors can be Mountain Theme-consistent between it all!
+
+
+* Design Parameters
+Making Figma graphics takes time - heck, I don't even know how to use the software properly! Please bear with me as I navigate through the revamp/redesign :)

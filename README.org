@@ -15,7 +15,7 @@ I also used many of the theme files from the infamous [[https://github.com/dracu
 * Palette
 I'm in the process of changing the design parameters - thank you for your patience!
 
-[[./docs/hanabira.org][Hanabira]]
+[[./docs/hotaka.org][Hotaka]]
 
 [[./docs/fuji.org][Fuji]]
 
