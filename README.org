@@ -1,6 +1,6 @@
 #+TITLE: Mountain
 
-[[./img/Banner.png]]
+#+html: <p align="center"><img src="img/Banner.png"/></src>
 
 * What is this?
 Mountain is a dark, neutral color scheme. What does that mean? It means that the grayscale is truly on the b/w range, and the rest of the colors aren't necessarily favoring any singular direction. This makes for a... neutral color palette, like I said in the beginning (I'm not good at writing). Regardless, this color scheme tries to be low-contrast, while maintaining a decent amount of contrast. Note that I'm not a colorologist guy, and just fucked around with some colors on my badly calibrated monitor. You've been warned!
@@ -13,16 +13,10 @@ This colorscheme is based off of the mountaineer.vim Vim theme - an amazing them
 I also used many of the theme files from the infamous [[https://github.com/dracula/dracula-theme][dracula theme]] - it's a great colorscheme, and it's what I'm migrating from. As such, I used dracula as a base for the code, and I feel that that's a credit that needs to be given. There's huuuuge room for improvement, and I'll be trying to fulfill those improvements as time passes.
 
 * Palette
-I'm still working on a written version of the design parameters - feel free to use this palette in the meantime to your own liking.
-[[./img/Palette.png]]
-Hopefully this representation is enough to get an idea of what Mountain is!
+I'm in the process of changing the design parameters - thank you for your patience!
 
 * Contribution
 I welcome contributions! I'm pretty crap at color design (if that hasn't been stressed enough), and there are definitely aspects of this colorscheme that require improvement. Please leave requests/issues with ways to improve it! Together we can make Mountain OP™.
 
 * Screenshots
-Just a couple previews of the themes made at first release!
-[[./img/scr1.png]]
-[[./img/scr2.png]]
-[[./img/scr3.png]]
-[[./img/scr4.png]]
+Coming soon!
