@@ -5,6 +5,8 @@
 * What is this?
 Hotaka is Mountain Theme's light design system - it uses the same colors that you know and love, but in a... light mode? So whether you're a lover of the (honestly eye-searing) light mode, or you want to have a light/dark mode toggle for something, whatever - your colors can be Mountain Theme-consistent between it all!
 
+* Disclaimer
+I am /not/ an avid light theme user - my vampiric tendencies coupled with the fact that I haven't run in years compel me to fear the burn. As such, you'll see that the work I'm putting out for Hotaka is, at least in the beginning, simply not going to be up to par with the Fuji design system. That being said, I absolutely love how the concept designs and graphics for Hotaka look, and I want to do all that I can to make it feasible to use - I'd appreciate patience, and the pull requests that you've all already been so kind to submit.
 
 * Design Parameters
 Making Figma graphics takes time - heck, I don't even know how to use the software properly! Please bear with me as I navigate through the revamp/redesign :)
