@@ -2,7 +2,7 @@
 
 ![discord picture](https://user-images.githubusercontent.com/76597257/116608638-1d525900-a93c-11eb-8017-221f4f250fb1.png)
 
-Test out the theme here: https://gibbu.github.io/ThemePreview/?filehttps://raw.githubusercontent.com/pradyungn/Mountain/master/discord/theme.css
+Test out the theme here: https://gibbu.github.io/ThemePreview/?file=https://raw.githack.com/pradyungn/Mountain/master/discord/theme.css
 
 ## Installation
 
