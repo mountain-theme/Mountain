@@ -1,5 +1,9 @@
 #+html: <p align="center"><img src="img/Banner.png"/></src>
 
+#+begin_quote
+Disclaimer: all the themes in the repo are currently adherent to the Fuji palette. I'm working on rolling out themes/standards for Hotaka.
+#+end_quote
+
 * What is this?
 Mountain is a dark, neutral color scheme. What does that mean? It means that the grayscale is truly on the b/w range, and the rest of the colors aren't necessarily favoring any singular direction. This makes for a... neutral color palette, like I said in the beginning (I'm not good at writing). Regardless, this color scheme tries to be low-contrast, while maintaining a decent amount of contrast. Note that I'm not a colorologist guy, and just fucked around with some colors on my badly calibrated monitor. You've been warned!
 
@@ -10,7 +14,6 @@ I'm in the process of changing the design parameters - thank you for your patien
 
 [[./docs/fuji.org][Fuji]]
 
-* Contribution
 * Fat acknowledgement thingie
 NOTE THAT THIS IS NOT MADE FROM SCRATCH.
 
@@ -20,6 +23,7 @@ I also used many of the theme files from the infamous [[https://github.com/dracu
 
 /1 - due to misconduct, co1ncidence's github account has been banned. That being said, I still appreciate all the work he put into mountaineer. Mountain wouldn't be what it is without his work!/
 
+* Contribution
 I welcome contributions! I'm pretty crap at color design (if that hasn't been stressed enough), and there are definitely aspects of this colorscheme that require improvement. Please leave requests/issues with ways to improve it! Together we can make Mountain OP™.
 
 * Screenshots
