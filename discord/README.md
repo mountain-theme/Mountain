@@ -1,6 +1,6 @@
 # Mountain Theme for Discord
 
-![discord picture]("add your link here :starehappy:" "Discord Mountain Theme")
+![discord picture](https://user-images.githubusercontent.com/76597257/116608638-1d525900-a93c-11eb-8017-221f4f250fb1.png)
 
 Test out the theme here: https://gibbu.github.io/ThemePreview/?filehttps://raw.githubusercontent.com/pradyungn/Mountain/master/discord/theme.css
 
@@ -18,8 +18,6 @@ You can use this theme with any client that allows css injection.
 
 ## Other
 
-### Features
-
 ### Misc
 
 Recommended to use with Fira Code (https://github.com/tonsky/FiraCode) (If you have the font installed already you can just remove the google fonts part)
@@ -31,5 +29,3 @@ Recommended to use with Fira Code (https://github.com/tonsky/FiraCode) (If you h
 	letter-spacing: -0.3px !important;
 }
 ```
-
-You can also change the whole theme with by only changing the values of the first few variables.
