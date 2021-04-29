@@ -8,6 +8,7 @@
     --background-primary: #0f0f0f;
     --Colleft: #191919;
     --background-secondary: var(--Colleft);
+    --background-tertiary: #262626;
     --ColAccent: #ac8a8c;
     --ColAccentAlpha: #ac8a8c20;
 
@@ -23,7 +24,7 @@
 
     --text-normal: var(--text-fix);
     --interactive-active: var(--text-fix);
-    --header-primary: #8caa8b;
+    --header-primary: #f0f0f0;
 
 
 }
@@ -42,9 +43,39 @@
 ::selection {background-color: var(--ColAccentAlpha) !important;}
 
 .selected-1Tbx07 {background-color: var(--background-modifier-selected) !important;}
-.topSectionNormal-2-vo2m {background-color: #262626 !important;}
 .body-3ND3kc, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .footer-2gL1pp, .section-2gLsgF {background-color: #262626;}
 .connectedAccount-36nQx7 {border: 1px solid rgba(0,0,0,0.2) !important;}
 
 .colorDefault-2K3EoJ.focused-3afm-j {background-color: var(--background-modifier-selected) !important;}
 .button-1YfofB.buttonColor-7qQbGO {color: #fff !important; }
+
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+    z-index: 1;
+    background: #8aac8b;
+}
+
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+    z-index: 1;
+    background: #aca98a;
+}
+
+.verified-1eC5dy:not(.disableColor-MwOAZf) > svg path { fill: #8f8aac}
+
+.topSectionSpotify-1lI0-P > header > button{
+    background: #4c4c4c !important;
+    color: #f0f0f0 !important;
+}
+
+.avatar-3EQepX {
+    transition: 250ms ease !important;
+}
+
+.avatar-3EQepX:hover {
+    transform: scale(1.5);
+}
+
+.toolbar-1t6TWx [aria-label="Member List"] { display: block !important; }   
+
+.headerNormal-T_seeN .topSectionNormal-2-vo2m {
+    background: #262626 !important;
+}
