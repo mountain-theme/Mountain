@@ -1,0 +1,11 @@
+{
+	"name": "theme-mountain",
+	"version": "1.0.0",
+	"description": "Official Mountain Theme",
+	"license": "MIT",
+	"main": "index.js",
+	"insomnia": {
+		"name": "theme-mountain",
+		"description": "Official Mountain Theme"
+	}
+}

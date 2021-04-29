@@ -25,4 +25,5 @@ I welcome contributions! I'm pretty crap at color design (if that hasn't been st
 * Screenshots
 Coming soon!
 * Example Rices
-[[https://www.reddit.com/r/unixporn/comments/kdpmh7/bspwm_oni/][Oni - @pradyungn]]
+[[https://www.reddit.com/r/unixporn/comments/kdpmh7/bspwm_oni/][Oni - @pradyungn(old account)]]
+[[https://www.reddit.com/r/unixporn/comments/n0qo87/herbstluftwm_if_im_going_to_college_it_might_as/?utm_source=share&utm_medium=web2x&context=3][Hades - @pradyungn]]
