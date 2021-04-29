@@ -6,7 +6,7 @@ Test out the theme here: https://gibbu.github.io/ThemePreview/?file=https://raw.
 
 ## Installation
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/pradyungn/Mountain/master/discord/theme.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gitleptune/Mountain/master/discord/theme.user.css)
 
 ### For web discord
 
