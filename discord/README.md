@@ -6,11 +6,11 @@ Test out the theme here: https://gibbu.github.io/ThemePreview/?file=https://raw.
 
 ## Installation
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gitleptune/Mountain/master/discord/theme.user.css)
+
 
 ### For web discord
-
-You can use this theme with Stylus (https://github.com/openstyles/stylus) by simply clicking the button above.
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Gitleptune/Mountain/master/discord/theme.user.css)
+You can use this theme with Stylus (https://github.com/openstyles/stylus).
 
 ### For client
 
