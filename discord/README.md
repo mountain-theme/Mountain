@@ -6,7 +6,7 @@ Test out the theme here: https://gibbu.github.io/ThemePreview/?file=https://raw.
 
 ## Installation
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/pradyungn/Mountain/master/discord/theme.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/pradyungn/Mountain/master/discord/theme.user.css)
 
 ### For web discord
 
@@ -17,6 +17,10 @@ You can use this theme with Stylus (https://github.com/openstyles/stylus) by sim
 You can use this theme with any client that allows css injection.
 
 ## Other
+### Features 
+
+- Contrasting background and text so it's easy to read
+- Rounded elements of UI
 
 ### Misc
 
