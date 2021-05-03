@@ -1,5 +1,5 @@
 # Mountain Theme / Vim
-![image](https://raw.githubusercontent.com/pradyungn/Mountain/vim/screenshot.png)
+![image](https://github.com/pradyungn/Mountain/blob/master/vim/screenshot.png?raw=true)
 
 ## Installation
 You may use any vim package manager of your choice. The below snippet uses junegunn's vim-plug package manager.
