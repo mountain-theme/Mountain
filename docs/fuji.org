@@ -5,5 +5,11 @@
 * What is this?
 Fuji is the "original" Mountain theme - the dark, neutral colorscheme that I set out to make in the first place. If you ever hear anyone say that they're using "Mountain Theme", chances are that older users will be referring to /this/. While I'm undergoing the shift to this more ambiguous design system, you'll find that this SKU will have far better support in terms of application themes.
 
+You'll also find that this theme is a lot more suitable for application themes than Hotaka (at the time of writing) - it's a lot more readable and stuff. Hotaka will /eventually/ be readable, but for now this is your best bet.
+
 * Design Parameters
-Making Figma graphics takes time - heck, I don't even know how to use the software properly! Please bear with me as I navigate through the revamp/redesign :)
+I've taken the liberty of making a couple of graphics that I thought would help visualize the different facets of Mountain's colors. As far as standards, there really isn't one - if you think you've made a cool theme that utilizes Fuji's primarily black/gray aesthetic and the Mountain colors, feel free to PR it! At the end of the day, how /you/ want to use these colors matters a whole lot more than the restrictions and guidelines I might implement :)
+
+[[../img/FujiGrayscale.png][Grayscale]]
+[[../img/FujiAlphas.png][Alphas]]
+[[../img/FujiAccents.png][FujiAccents]]
