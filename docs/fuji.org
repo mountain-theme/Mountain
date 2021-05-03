@@ -10,6 +10,6 @@ You'll also find that this theme is a lot more suitable for application themes t
 * Design Parameters
 I've taken the liberty of making a couple of graphics that I thought would help visualize the different facets of Mountain's colors. As far as standards, there really isn't one - if you think you've made a cool theme that utilizes Fuji's primarily black/gray aesthetic and the Mountain colors, feel free to PR it! At the end of the day, how /you/ want to use these colors matters a whole lot more than the restrictions and guidelines I might implement :)
 
-[[../img/FujiGrayscale.png][Grayscale]]
-[[../img/FujiAlphas.png][Alphas]]
-[[../img/FujiAccents.png][FujiAccents]]
+#+html: <p align="center"><img src="../img/FujiGrayscale.png"/></src>
+#+html: <p align="center"><img src="../img/FujiAlphas.png"/></src>
+#+html: <p align="center"><img src="../img/FujiAccents.png"/></src>
