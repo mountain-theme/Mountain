@@ -1,5 +1,5 @@
 # Mountain Theme / Vim
-![image](https://raw.githubusercontent.com/hlissner/doom-emacs/vim/screenshot.png)
+![image](https://raw.githubusercontent.com/pradyungn/Mountain/vim/screenshot.png)
 
 ## Installation
 You may use any vim package manager of your choice. The below snippet uses junegunn's vim-plug package manager.
