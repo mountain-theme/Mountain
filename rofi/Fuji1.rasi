@@ -1,8 +1,8 @@
 * {
-    red:                         rgba ( 234, 81, 178, 100 % );
-    blue:                        rgba ( 98, 214, 232, 100 % );
+    green:                       #8aac8b;
+    blue:                        #8aabac;
     lightfg:                     #f0f0f0;
-    lightbg:                     #191919; 
+    lightbg:                     #0f0f0f; 
     foreground:                  #f0f0f0;
     background:                  #0f0f0f;
     background-color:            #0f0f0f;
@@ -13,25 +13,25 @@
     selected-active-foreground:  @background;
     selected-active-background:  @blue;
     selected-urgent-foreground:  @background;
-    selected-urgent-background:  @red;
+    selected-urgent-background:  @green;
     normal-foreground:           @foreground;
     normal-background:           @background;
     active-foreground:           @blue;
     active-background:           @background;
-    urgent-foreground:           @red;
+    urgent-foreground:           @green;
     urgent-background:           @background;
     alternate-normal-foreground: @foreground;
     alternate-normal-background: @lightbg;
     alternate-active-foreground: @blue;
     alternate-active-background: @lightbg;
-    alternate-urgent-foreground: @red;
+    alternate-urgent-foreground: @green;
     alternate-urgent-background: @lightbg;
     spacing:                     2;
 }
 window {
     background-color: @background;
-    border:           4;
-    padding:          5;
+    border:           20 0 0 0;
+    padding:          12;
 }
 mainbox {
     border:           0;
@@ -42,12 +42,15 @@ message {
     border-color:     @separatorcolor;
     padding:          1px ;
 }
+
 textbox {
     text-color:       @foreground;
+    padding: 5px;
 }
+
 listview {
     fixed-height:     0;
-    border:           2px dash 0px 0px ;
+    border:           0px solid 0px 0px ;
     border-color:     @separatorcolor;
     spacing:          2px ;
     scrollbar:        false;
@@ -55,7 +58,7 @@ listview {
 }
 element {
     border:           0;
-    padding:          1px ;
+    padding:          5px ;
 }
 element normal.normal {
     background-color: @normal-background;
@@ -70,7 +73,7 @@ element normal.active {
     text-color:       @active-foreground;
 }
 element selected.normal {
-    background-color: #44475a;
+    background-color: #262626;
     text-color:       @normal-foreground;
 }
 element selected.urgent {
@@ -132,7 +135,7 @@ prompt {
 }
 textbox-prompt-colon {
     expand:           false;
-    str:              ":";
+    str:              "";
     margin:           0px 0.3000em 0.0000em 0.0000em ;
     text-color:       inherit;
 }
