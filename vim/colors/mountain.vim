@@ -1,3 +1,4 @@
+set termguicolors
 let s:gui00        = "0f0f0f"
 let g:base16_gui00 = "0f0f0f"
 
