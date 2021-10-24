@@ -14,6 +14,11 @@ I'm in the process of changing the design parameters - thank you for your patien
 
 [[./docs/fuji.org][Fuji]]
 
+* Contributing
+
+View the [[./docs/CONTRIBUTING.org][CONTRIBUTING]] file to see exactly how to help! 
+PRs are welcome.
+
 * Fat acknowledgement thingie
 NOTE THAT THIS IS NOT MADE FROM SCRATCH.
 
