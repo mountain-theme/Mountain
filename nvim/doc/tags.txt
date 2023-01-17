@@ -1,0 +1,3 @@
+mountain	mountain.txt	/*mountain*
+mountain-features	mountain.txt	/*mountain-features*
+mountain-usage	mountain.txt	/*mountain-usage*
