@@ -90,27 +90,40 @@ Can be an integer to determine the exact padding."
    (vc-added       green)
    (vc-deleted     red)
 
+	;; org hierarchy
+	(level1)
+	(level2 dark-blue)
+	(level3 green)
+	(level4 yellow)
+	(level5 magenta)
+	(level6 dark-cyan)
+	(level7 scream)
+	(level8 green)
+	(level9 blue)
+
    ;; custom categories
    (modeline-bg     base1)
    (modeline-bg-alt base1)
    (modeline-fg     fg)
    (modeline-fg-alt base4)
    (-modeline-pad
-    (when doom-mountain-padded-modeline
-      (if (integerp doom-mountain-padded-modeline)
-	  doom-mountain-padded-modeline
-	4))))
+	(when doom-mountain-padded-modeline
+	  (if (integerp doom-mountain-padded-modeline)
+		  doom-mountain-padded-modeline
+		4))))
 
   ;; --- faces ------------------------------
   (((line-number &override) :foreground base4)
    ((line-number-current-line &override) :foreground blue :bold bold)
+
    (mode-line
-    :background modeline-bg :foreground modeline-fg
-    :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg)))
+	:background modeline-bg :foreground modeline-fg
+	:box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg)))
    (mode-line-inactive
-    :background modeline-bg-alt :foreground modeline-fg-alt
-    :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg-alt)))
-    ;;;; rainbow-delimiters
+	:background modeline-bg-alt :foreground modeline-fg-alt
+	:box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg-alt)))
+
+	;;;; rainbow-delimiters
    (rainbow-delimiters-depth-1-face :foreground violet)
    (rainbow-delimiters-depth-2-face :foreground blue)
    (rainbow-delimiters-depth-3-face :foreground orange)
@@ -129,6 +142,49 @@ Can be an integer to determine the exact padding."
    (vterm-color-blue :foreground dark-blue :background blue)
    (vterm-color-magenta :foreground magenta :background violet)
    (vterm-color-white :foreground "#e7e7e7" :background "#f5f5f5")
+
+   ;; org-mode								
+   ;; ((outline-1 &override) :foreground level1)
+   ;; (outline-2 :inherit 'outline-1 :foreground level2)
+   ;; (outline-3 :inherit 'outline-1 :foreground level3)
+   ;; (outline-4 :inherit 'outline-1 :foreground level4)
+   ;; (outline-5 :inherit 'outline-1 :foreground level5)
+   ;; (outline-6 :inherit 'outline-1 :foreground level6)
+   ;; (outline-7 :inherit 'outline-1 :foreground level7)
+
+   (org-todo :foreground yellow :bold 'inherit :background (doom-darken base0 0.02))
+   (org-done :foreground green :strike-through nil :background base1 :bold t)
+   (org-headline-done :foreground base3 :strike-through nil)
+   ((org-tag &override) :foreground orange)
+   (org-agenda-date :foreground dark-cyan)
+   (org-agenda-dimmed-todo-face :foreground comments)
+   (org-agenda-done :foreground base3)
+   (org-agenda-structure :foreground red)
+   ((org-block &override) :background base0 :foreground dark-blue)
+   ((org-block-begin-line &override) :background base0 :foreground comments)
+   (org-code :foreground yellow)
+   (org-column :background base1)
+   (org-column-title :background base0 :bold t :underline t)
+   (org-date :foreground dark-cyan)
+   (org-document-info :foreground dark-blue)
+   (org-document-info-keyword :foreground comments)
+   (org-ellipsis :foreground comments)
+   (org-footnote :foreground dark-blue)
+   (org-headline-base :foreground comments :strike-through t :bold nil)
+   (org-link :foreground orange :underline t :weight 'bold)
+   (org-priority :foreground dark-cyan)
+   (org-scheduled :foreground green)
+   (org-scheduled-previously :foreground yellow)
+   (org-scheduled-today :foreground orange)
+   (org-sexp-date :foreground base3)
+   (org-special-keyword :foreground yellow)
+   (org-table :foreground violet)
+   (org-upcoming-deadline :foreground yellow)
+   (org-warning :foreground magenta)
+
+   ;; quotes
+   (highlight-quoted-symbol :foreground dark-cyan)
+   (highlight-quoted-quote  :foreground magenta)
 
    ;;;; doom-modeline
    (doom-modeline-buffer-path       :foreground violet :bold bold)
