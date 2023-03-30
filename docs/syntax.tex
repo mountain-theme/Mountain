@@ -1,0 +1,65 @@
+% Created 2021-08-03 Tue 11:06
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Pradyun Narkadamilli}
+\date{\today}
+\title{Mountain Syntax Highlighting Specifications}
+\hypersetup{
+ pdfauthor={Pradyun Narkadamilli},
+ pdftitle={Mountain Syntax Highlighting Specifications},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+
+\section{Introduction}
+\label{sec:org7515805}
+\begin{quote}
+Disclaimer: As the Hotaka variant of Mountain becomes more developed, these syntax specifications will be modified to have exceptions/differences specifically meant for Hotaka. In the meantime, assume that Hotaka and Fuji use the same standards.
+\end{quote}
+
+\subsection{Formatting this specifications}
+\label{sec:org2dfd4a2}
+This document is modeled after the perennial Dracula theme. In similar fashion, Language syntaxes and scopes will be formatted as such:
+\begin{quote}
+\emph{Object - (ForegroundColor, BackgroundColor\textsubscript{opt}) Italicize\textsubscript{opt} Bold\textsubscript{opt}}
+\end{quote}
+Throughout this document, syntax tokens will generally be using the TextMate Naming Conventions.
+
+\subsection{Color Palette}
+\label{sec:orgffc3423}
+The colors listed below are in line with the \emph{Fuji} color palette.
+\begin{center}
+\begin{tabular}{lll}
+Name & Color & Hex\\
+Yoru & Background & \#0F0F0F\\
+Yuki & Foreground & \#F0F0F0\\
+Ume & Purple & \#8F8AAC\\
+Kosumosu & Pink & \#AC8AAC\\
+Chikyu & Yellow & \#ACA98A\\
+Aki & Orange & \#C6A679\\
+Mizu & Cyan & \#8AACAB\\
+Take & Green & \#8AAC8B\\
+Shinkai & Blue & \#8A98AC\\
+\end{tabular}
+\end{center}
+\end{document}

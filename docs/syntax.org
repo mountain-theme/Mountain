@@ -1,0 +1,28 @@
+#+TITLE: Mountain Syntax Highlighting Specifications
+
+
+* Introduction
+#+begin_quote
+Disclaimer: As the Hotaka variant of Mountain becomes more developed, these syntax specifications will be modified to have exceptions/differences specifically meant for Hotaka. In the meantime, assume that Hotaka and Fuji use the same standards.
+#+end_quote
+
+** Formatting this specifications
+This document is modeled after the perennial Dracula theme. In similar fashion, Language syntaxes and scopes will be formatted as such:
+#+begin_quote
+/Object - (ForegroundColor, BackgroundColor_{opt}) Italicize_{opt} Bold_{opt}/
+#+end_quote
+Throughout this document, syntax tokens will generally be using the TextMate Naming Conventions.
+
+** Color Palette
+The colors listed below are in line with the /Fuji/ color palette.
+| Name     | Color      | Hex     |
+| Yoru     | Background | #0F0F0F |
+| Yuki     | Foreground | #F0F0F0 |
+| Ume      | Purple     | #8F8AAC |
+| Kosumosu | Pink       | #AC8AAC |
+| Chikyu   | Yellow     | #ACA98A |
+| Aki      | Orange     | #C6A679 |
+| Mizu     | Cyan       | #8AACAB |
+| Take     | Green      | #8AAC8B |
+| Shinkai  | Blue       | #8A98AC |
+|          |            |         |
