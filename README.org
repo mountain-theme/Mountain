@@ -8,31 +8,18 @@ Disclaimer: all the themes in the repo are currently adherent to the Fuji palett
 Mountain is a dark, neutral color scheme. What does that mean? It means that the grayscale is truly on the b/w range, and the rest of the colors aren't necessarily favoring any singular direction. This makes for a... neutral color palette, like I said in the beginning (I'm not good at writing). Regardless, this color scheme tries to be low-contrast, while maintaining a decent amount of contrast. Note that I'm not a colorologist guy, and just fucked around with some colors on my badly calibrated monitor. You've been warned!
 
 * Palette
-I'm in the process of changing the design parameters - thank you for your patience!
-
-[[./docs/hotaka.org][Hotaka]]
-
-[[./docs/fuji.org][Fuji]]
+[[./docs/fuji.org][Fuji]] (default)
+[[./docs/hotaka.org][Hotaka]] (incomplete)
 
 * Contributing
 
 View the [[./docs/CONTRIBUTING.org][CONTRIBUTING]] file to see exactly how to help! 
 PRs are welcome.
 
-* Fat acknowledgement thingie
-NOTE THAT THIS IS NOT MADE FROM SCRATCH.
+* Acknowledgements
+This colorscheme is based off of the mountaineer.vim Vim theme - an amazing theme in its own right, but it felt incomplete to me in some respects (and too harsh in others), so now Mountain exists, I guess. Mountain has been expanded off mountaineer, and I've spent a long time making themes based on my own preferences, so here we are.
 
-This colorscheme is based off of the mountaineer.vim Vim theme - an amazing theme in its own right, but it felt incomplete to me in some respects (and too harsh in others), so now Mountain exists, I guess. Mountain has been expanded off mountaineer, and I've spent a long time making themes based on my own weird-ass standards, so here we are! Feel free to check out the original colorscheme [[https://github.com/co1ncidence/mountaineer.vim][here_{1}]]!
+Much of the original source code for these themes were derived from [[https://github.com/dracula/dracula-theme][dracula theme]] - it's a great colorscheme, and it's what I originally migrated from. 
 
-I also used many of the theme files from the infamous [[https://github.com/dracula/dracula-theme][dracula theme]] - it's a great colorscheme, and it's what I'm migrating from. As such, I used dracula as a base for the code, and I feel that that's a credit that needs to be given. There's huuuuge room for improvement, and I'll be trying to fulfill those improvements as time passes.
-
-/1 - due to misconduct, co1ncidence's github account has been banned. That being said, I still appreciate all the work he put into mountaineer. Mountain wouldn't be what it is without his work!/
-
-* Contribution
-I welcome contributions! I'm pretty crap at color design (if that hasn't been stressed enough), and there are definitely aspects of this colorscheme that require improvement. Please leave requests/issues with ways to improve it! Together we can make Mountain OP™.
-
-* Screenshots
-Coming soon!
 * Example Rices
-[[https://www.reddit.com/r/unixporn/comments/kdpmh7/bspwm_oni/][Oni - @pradyungn(old account)]]
 [[https://www.reddit.com/r/unixporn/comments/n0qo87/herbstluftwm_if_im_going_to_college_it_might_as/?utm_source=share&utm_medium=web2x&context=3][Hades - @pradyungn]]
