@@ -1,0 +1,226 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "yoru": "#0f0f0f",
+    "kesseki": "#191919",
+    "iwa": "#262626",
+    "tetsu": "#393939",
+    "amagumo": "#4c4c4c",
+    "gin": "#767676",
+    "okami": "#a0a0a0",
+    "tsuki": "#bfbfbf",
+    "fuyu": "#cacaca",
+    "yuki": "#e7e7e7",
+    "yukiFg": "#f0f0f0",
+    "kaen": "#ac8a8c",
+    "aki": "#c6a679",
+    "suna": "#ceb188",
+    "chikyu": "#aca98a",
+    "take": "#8aac8b",
+    "mizu": "#8aabac",
+    "ume": "#8f8aac",
+    "kosumosu": "#ac8aac"
+  },
+  "theme": {
+    "primary": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "secondary": {
+      "dark": "mizu",
+      "light": "mizu"
+    },
+    "accent": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "error": {
+      "dark": "kaen",
+      "light": "kaen"
+    },
+    "warning": {
+      "dark": "aki",
+      "light": "aki"
+    },
+    "success": {
+      "dark": "take",
+      "light": "take"
+    },
+    "info": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "text": {
+      "dark": "yukiFg",
+      "light": "yoru"
+    },
+    "textMuted": {
+      "dark": "amagumo",
+      "light": "amagumo"
+    },
+    "background": {
+      "dark": "yoru",
+      "light": "yukiFg"
+    },
+    "backgroundPanel": {
+      "dark": "kesseki",
+      "light": "yuki"
+    },
+    "backgroundElement": {
+      "dark": "kesseki",
+      "light": "yuki"
+    },
+    "border": {
+      "dark": "iwa",
+      "light": "tsuki"
+    },
+    "borderActive": {
+      "dark": "amagumo",
+      "light": "kaen"
+    },
+    "borderSubtle": {
+      "dark": "iwa",
+      "light": "tsuki"
+    },
+    "diffAdded": {
+      "dark": "take",
+      "light": "take"
+    },
+    "diffRemoved": {
+      "dark": "kaen",
+      "light": "kaen"
+    },
+    "diffContext": {
+      "dark": "amagumo",
+      "light": "kaen"
+    },
+    "diffHunkHeader": {
+      "dark": "amagumo",
+      "light": "kaen"
+    },
+    "diffHighlightAdded": {
+      "dark": "take",
+      "light": "take"
+    },
+    "diffHighlightRemoved": {
+      "dark": "kaen",
+      "light": "kaen"
+    },
+    "diffAddedBg": {
+      "dark": "kesseki",
+      "light": "yuki"
+    },
+    "diffRemovedBg": {
+      "dark": "kesseki",
+      "light": "yuki"
+    },
+    "diffContextBg": {
+      "dark": "kesseki",
+      "light": "yuki"
+    },
+    "diffLineNumber": {
+      "dark": "iwa",
+      "light": "tsuki"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "kesseki",
+      "light": "yuki"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "kesseki",
+      "light": "yuki"
+    },
+    "markdownText": {
+      "dark": "yukiFg",
+      "light": "yoru"
+    },
+    "markdownHeading": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "markdownLink": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "markdownLinkText": {
+      "dark": "mizu",
+      "light": "mizu"
+    },
+    "markdownCode": {
+      "dark": "take",
+      "light": "take"
+    },
+    "markdownBlockQuote": {
+      "dark": "amagumo",
+      "light": "kaen"
+    },
+    "markdownEmph": {
+      "dark": "aki",
+      "light": "aki"
+    },
+    "markdownStrong": {
+      "dark": "chikyu",
+      "light": "chikyu"
+    },
+    "markdownHorizontalRule": {
+      "dark": "amagumo",
+      "light": "kaen"
+    },
+    "markdownListItem": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "markdownListEnumeration": {
+      "dark": "mizu",
+      "light": "mizu"
+    },
+    "markdownImage": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "markdownImageText": {
+      "dark": "mizu",
+      "light": "mizu"
+    },
+    "markdownCodeBlock": {
+      "dark": "yukiFg",
+      "light": "yoru"
+    },
+    "syntaxComment": {
+      "dark": "amagumo",
+      "light": "kaen"
+    },
+    "syntaxKeyword": {
+      "dark": "kosumosu",
+      "light": "kosumosu"
+    },
+    "syntaxFunction": {
+      "dark": "ume",
+      "light": "ume"
+    },
+    "syntaxVariable": {
+      "dark": "kaen",
+      "light": "kaen"
+    },
+    "syntaxString": {
+      "dark": "take",
+      "light": "take"
+    },
+    "syntaxNumber": {
+      "dark": "aki",
+      "light": "aki"
+    },
+    "syntaxType": {
+      "dark": "chikyu",
+      "light": "chikyu"
+    },
+    "syntaxOperator": {
+      "dark": "yukiFg",
+      "light": "yoru"
+    },
+    "syntaxPunctuation": {
+      "dark": "kaen",
+      "light": "kaen"
+    }
+  }
+}
