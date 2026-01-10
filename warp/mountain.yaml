@@ -1,0 +1,26 @@
+# Mountain Dark theme for Warp Terminal
+
+accent: "#8f8aac"
+background: "#0f0f0f"
+foreground: "#f0f0f0"
+details: "darker"
+
+terminal_colors:
+  normal:
+    black: "#0f0f0f"
+    red: "#ac8a8c"
+    green: "#8aac8b"
+    yellow: "#aca98a"
+    blue: "#8f8aac"
+    magenta: "#ac8aac"
+    cyan: "#8aabac"
+    white: "#e7e7e7"
+  bright:
+    black: "#676767"
+    red: "#ac8a8c"
+    green: "#8aac8b"
+    yellow: "#aca98a"
+    blue: "#8f8aac"
+    magenta: "#ac8aac"
+    cyan: "#8aabac"
+    white: "#f0f0f0"
