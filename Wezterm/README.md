@@ -8,7 +8,7 @@ Note: The format for this file was stolen from the catppuccin repo!
 local wezterm = require("wezterm")
 
 return {
-    color_scheme = "Mountain",
+    color_scheme = "Mountain (Fuji)",
     -- your config
   }
 ```
